@@ -42,7 +42,6 @@ def levenshtein_distance(s1, s2):
 
     return dp[-1][-1], dp, list(reversed(changes))
 
-# Usage example:
 distance, table, edits = levenshtein_distance("PLUM", "PEAR")
 
 print(f"The Levenshtein distance is {distance}.")
