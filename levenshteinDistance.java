@@ -21,8 +21,8 @@ public class levenshteinDistance {
     }
 
     public static void main(String[] args) {
-        String s1 = "kitten";
-        String s2 = "sitting";
+        String s1 = "KU13043";
+        String s2 = "K2273050";
         System.out.println(levenshteinDistance(s1, s2)); // Output: 3
     }
 }

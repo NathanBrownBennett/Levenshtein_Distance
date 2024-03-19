@@ -35,4 +35,4 @@ def levenshtein_distance(s1, s2, memo={}):
   return memo[key]
 
 # Example usage
-print(levenshtein_distance("kitten", "sitting"))  # Output: 3
+print(levenshtein_distance("KU13043", "K2273050"))  # Output: 3

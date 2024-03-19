@@ -14,4 +14,4 @@ def levenshtein_distance(s1, s2):
                levenshtein_distance(s1[:-1], s2[:-1]) + cost)
 
 # Example usage:
-print(levenshtein_distance("kitten", "plum"))  # Output: 3
+print(levenshtein_distance("KU13043", "K2273050"))  # Output: 3
